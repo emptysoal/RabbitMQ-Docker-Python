@@ -160,7 +160,7 @@ $ docker run -it -v $PWD:/workspace general-python3.6:with-vim-v1 bash
 
 ![](../images/循环分发worker1.png)
 
-***说明：***处理能力差距较大情况下，依然顺序的分发每个Message，worker0 为 0，2，4，6，8；worker1 为 1，3，5，7，9。
+***说明*** : 处理能力差距较大情况下，依然顺序的分发每个Message，worker0 为 0，2，4，6，8；worker1 为 1，3，5，7，9。
 
 公平分发机制中会解决这个问题。
 
