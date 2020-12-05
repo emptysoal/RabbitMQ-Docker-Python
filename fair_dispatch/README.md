@@ -165,7 +165,7 @@ $ docker run -it -v $PWD:/workspace general-python3.6:with-vim-v1 bash
 
 ![](../images/公平分发worker1.png)
 
-***说明：***处理能力差距较大情况下，是按worker的工作效率分发的，worker0 为 0，3，5，8；worker1 为 1，2，4，6，7，9。
+***说明*** : 处理能力差距较大情况下，是按worker的工作效率分发的，worker0 为 0，3，5，8；worker1 为 1，2，4，6，7，9。
 
 即，一个消息处理完成，立刻开始处理下一个，能力强的处理的就多。
 
