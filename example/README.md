@@ -16,7 +16,7 @@ $ docker pull rabbitmq:management
 $ docker run -d --name rabbit -e RABBITMQ_DEFAULT_USER=admin -e RABBITMQ_DEFAULT_PASS=admin -p 15672:15672 -p 5672:5672 rabbitmq:management
 ```
 
-**备注：**15672是管理界面的端口，5672是服务的端口。这里顺便将管理系统的用户名和密码设置为admin admin 默认账号和密码是guest guest。
+**备注** : 15672是管理界面的端口，5672是服务的端口。这里顺便将管理系统的用户名和密码设置为admin admin 默认账号和密码是guest guest。
 
 - Web管理界面
 
